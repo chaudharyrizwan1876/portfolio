@@ -1,36 +1,92 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Muhammad Rizwan – Portfolio Website
 
-## Getting Started
+A Next.js portfolio website inspired by xenikii.one
 
-First, run the development server:
+---
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+## 📁 Folder Structure
+
+```
+rizwan-portfolio/
+├── public/
+│   └── profile.jpg          ← ⚠️ AAPKI PHOTO YAHAN RAKHEIN (naam bilkul profile.jpg hona chahiye)
+│
+├── src/
+│   └── app/
+│       ├── globals.css       ← Saari CSS / styles
+│       ├── layout.js         ← Root layout (title, meta)
+│       ├── page.js           ← MAIN HOME PAGE (Hero, Circles, Experience, Projects, Footer)
+│       │
+│       └── projects/
+│           ├── unijump/
+│           │   └── page.js   ← UniJump project detail page
+│           ├── ai-email/
+│           │   └── page.js   ← AI Email Support Tool page
+│           └── shopping-store/
+│               └── page.js   ← Shopping Store project page
+│
+├── package.json
+├── next.config.mjs
+├── tailwind.config.js
+└── postcss.config.js
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+---
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+## 🖼️ Profile Image
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+Aapki photo ko:
+1. **Naam dein:** `profile.jpg`
+2. **Folder:** `public/` folder ke andar rakhein
+3. Final path: `rizwan-portfolio/public/profile.jpg`
 
-## Learn More
+---
 
-To learn more about Next.js, take a look at the following resources:
+## 🚀 Setup & Run
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+```bash
+# 1. Dependencies install karein
+npm install
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+# 2. Development server chalayein
+npm run dev
 
-## Deploy on Vercel
+# 3. Browser mein open karein
+http://localhost:3000
+```
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+---
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+## 🌐 Deploy on Vercel (Free)
+
+```bash
+npm install -g vercel
+vercel
+```
+
+Ya GitHub pe push karein aur vercel.com se connect karein.
+
+---
+
+## ✏️ Changes Karne Ke Liye
+
+| Kya change karna hai | Kahan jaayein |
+|---|---|
+| Name, title, hero section | `src/app/page.js` → `Hero()` function |
+| Flip circles content | `src/app/page.js` → `circleData` array |
+| Experience details | `src/app/page.js` → `experiences` array |
+| Project cards | `src/app/page.js` → `projects` array |
+| Footer email/links | `src/app/page.js` → `Footer()` function |
+| UniJump page | `src/app/projects/unijump/page.js` |
+| AI Email page | `src/app/projects/ai-email/page.js` |
+| Shopping Store page | `src/app/projects/shopping-store/page.js` |
+| Colors/fonts/styles | `src/app/globals.css` |
+
+---
+
+## 📞 Contact in Footer
+
+- LinkedIn icon → aapka LinkedIn URL update karein
+- GitHub → `https://github.com/chaudharyrizwan1876` (already set)
+- WhatsApp → `https://wa.me/923XXXXXXXXX` mein apna number daalein
+- Email → `Rizwanchaudhary4477@gmail.com` (already set)
