@@ -311,7 +311,7 @@ export default function Home() {
               Muhammad <span className="text-cyan-400">Rizwan</span>
             </motion.h1>
             <motion.h2 variants={fadeUp} className="text-lg sm:text-xl md:text-2xl text-gray-300 font-semibold mb-6 sm:mb-8">
-              Full Stack Web Developer
+              Full Stack Developer & AI Enthusiast
             </motion.h2>
             <motion.p variants={fadeUp} className="text-gray-400 leading-7 sm:leading-8 text-sm sm:text-base mb-8 sm:mb-10">
               I specialize in building scalable, high-performance web applications
