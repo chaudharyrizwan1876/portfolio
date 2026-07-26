@@ -81,42 +81,40 @@ const skillDescriptions = {
 // ─── EXPERIENCES ───
 const experiences = [
   {
-    period: "Aug 2025 - Present",
+    period: "Nov 2025 - Present",
     role: "Full Stack Developer",
-    company: "Freelancing Agency",
+    company: "Primze Tech",
     location: "Rawalpindi, Pakistan (Remote)",
     points: [
-      "Building and delivering full-stack web applications for clients using Next.js, React.js, Nest.js, and Node.js.",
-      "Developing RESTful APIs and backend services using Express.js and MongoDB.",
-      "Built a fully offline Windows desktop application (Cafe Management System) using C# and WPF on .NET 10 with SQLite, Entity Framework Core, and ML.NET for AI-powered sales predictions.",
-      "Managing project lifecycle from requirement gathering to deployment, including CI/CD pipeline setup on platforms like Vercel and Netlify.",
-      "Collaborating with international clients to deliver high-quality, scalable web and desktop solutions.",
+      "Independently own full features from requirement to deployment, building web applications end to end using React.js, Next.js, Node.js, and Express.js.",
+      "Design and integrate RESTful APIs connecting frontend interfaces to backend services and databases using MongoDB and PostgreSQL.",
+      "Build and maintain cross-platform solutions combining the web stack with C# and SQLite for desktop-based requirements.",
+      "Fix bugs and maintain existing codebases alongside new feature development, following established code review practices.",
     ],
     tags: ["Next.js", "React.js", "Nest.js", "Tailwind CSS", "Node.js", "Express.js", "MongoDB", "C#", ".NET", "WPF", "SQLite", "ML.NET", "CI/CD", "GitHub"],
   },
   {
-    period: "Feb 2024 - July 2025",
-    role: "MERN Stack Developer",
-    company: "Design Style Studio",
+    period: "Feb 2024 - Oct 2025",
+    role: "Full Stack Developer",
+    company: "SLYK Design Studio",
     location: "Rawalpindi, Pakistan (Hybrid)",
     points: [
-      "Designed and developed UniJump — a modern international education platform for student onboarding and university applications.",
-      "Built a responsive and SEO-friendly frontend using Next.js and Tailwind CSS with reusable component-based architecture.",
-      "Developed secure authentication system and user dashboard for managing student data and application processes.",
-      "Integrated backend APIs for handling user data, authentication, and application workflows using Node.js, Express.js, and MongoDB.",
+      "Independently delivered full-stack client projects end to end, including UniJump, a modern international education platform for student onboarding and university applications.",
+      "Designed and built RESTful APIs and responsive, SEO-friendly user interfaces using Next.js and Tailwind CSS with reusable component-based architecture.",
+      "Identified and resolved performance bottlenecks in database queries and application logic to improve stability.",
+      "Coordinated directly with the development team to plan features, debug production issues, and meet delivery timelines.",
     ],
     tags: ["Next.js", "Tailwind CSS", "Node.js", "Express.js", "MongoDB", "REST APIs", "Vercel", "Git", "GitHub"],
   },
   {
-    period: "July 2023 - Jan 2024",
-    role: "Website Developer Internee",
-    company: "Alright Private Tech Ltd",
+    period: "Aug 2023 - Dec 2023",
+    role: "MERN Stack Developer (Internship)",
+    company: "Alright Private Tech Limited",
     location: "Rawalpindi, Pakistan",
     points: [
-      "Supported the full development lifecycle of an E-commerce Web Store Platform from UI design to Netlify deployment.",
-      "Built a modern and responsive frontend using React.js and Tailwind CSS with component-based architecture.",
-      "Integrated REST APIs for product listing, user authentication, and order handling.",
-      "Developed backend services with Node.js and Express.js; designed and managed MongoDB database structure.",
+      "Built and integrated REST APIs and developed responsive UI components using the MERN stack under senior developer guidance.",
+      "Supported the full development lifecycle of an e-commerce web store platform, from UI design to Netlify deployment.",
+      "Managed database operations and collaborated with the team to debug issues and implement new features.",
     ],
     tags: ["ReactJS", "Vite", "Tailwind CSS", "Node.js", "Express.js", "MongoDB", "REST APIs", "Git"],
   },
@@ -126,17 +124,18 @@ const experiences = [
 const projects = [
   {
     icon: (
-      <div className="w-12 h-12 rounded-2xl bg-gradient-to-br from-purple-500 to-rose-500 flex items-center justify-center shrink-0 shadow-lg shadow-purple-500/25">
-        <svg className="w-6 h-6 text-white" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round">
-          <circle cx="12" cy="12" r="10"/><path d="M2 12h20M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/>
+      <div className="w-12 h-12 rounded-2xl bg-gradient-to-br from-green-500 to-emerald-600 flex items-center justify-center shrink-0 shadow-lg shadow-green-500/25">
+        <svg className="w-6 h-6 text-white" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+          <path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"/>
         </svg>
       </div>
     ),
-    title: "UniJump",
-    description: "A platform connecting students with universities. Built with Next.js, Node.js and MongoDB with real-time features.",
-    github: "https://github.com/chaudharyrizwan1876/unijump-front",
-    liveLink: "https://www.unijump.es/",
-    tags: ["Next.js", "Tailwind CSS", "Node.js", "Express.js", "MongoDB", "REST APIs", "Vercel", "GitHub"],
+    title: "AI Email Support Tool",
+    description: "Intelligent email support system powered by AI. Complete full-stack application with frontend and backend.",
+    github: "https://github.com/chaudharyrizwan1876/ai-email-frontend",
+    githubBackend: "https://github.com/chaudharyrizwan1876/ai-email-backend",
+    liveLink: "https://new.joaomiranda.com/ai-support/",
+    tags: ["React.js", "Node.js", "Express.js", "MongoDB", "REST APIs"],
   },
   {
     icon: (
@@ -155,18 +154,87 @@ const projects = [
   },
   {
     icon: (
-      <div className="w-12 h-12 rounded-2xl bg-gradient-to-br from-green-500 to-emerald-600 flex items-center justify-center shrink-0 shadow-lg shadow-green-500/25">
-        <svg className="w-6 h-6 text-white" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
-          <path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"/>
+      <div className="w-12 h-12 rounded-2xl bg-gradient-to-br from-purple-500 to-rose-500 flex items-center justify-center shrink-0 shadow-lg shadow-purple-500/25">
+        <svg className="w-6 h-6 text-white" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round">
+          <circle cx="12" cy="12" r="10"/><path d="M2 12h20M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/>
         </svg>
       </div>
     ),
-    title: "AI Email Support Tool",
-    description: "Intelligent email support system powered by AI. Complete full-stack application with frontend and backend.",
-    github: "https://github.com/chaudharyrizwan1876/ai-email-frontend",
-    githubBackend: "https://github.com/chaudharyrizwan1876/ai-email-backend",
-    liveLink: "https://new.joaomiranda.com/ai-support/",
-    tags: ["React.js", "Node.js", "Express.js", "MongoDB", "REST APIs"],
+    title: "UniJump",
+    description: "A platform connecting students with universities. Built with Next.js, Node.js and MongoDB with real-time features.",
+    github: "https://github.com/chaudharyrizwan1876/unijump-front",
+    liveLink: "https://www.unijump.es/",
+    tags: ["Next.js", "Tailwind CSS", "Node.js", "Express.js", "MongoDB", "REST APIs", "Vercel", "GitHub"],
+  },
+  {
+    icon: (
+      <div className="w-12 h-12 rounded-2xl bg-gradient-to-br from-pink-500 to-fuchsia-600 flex items-center justify-center shrink-0 shadow-lg shadow-pink-500/25">
+        <svg className="w-6 h-6 text-white" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+          <path d="M12 21c-4.5-3-8-6.5-8-10a4 4 0 0 1 8-1 4 4 0 0 1 8 1c0 3.5-3.5 7-8 10z"/>
+        </svg>
+      </div>
+    ),
+    title: "Furr & Feathers",
+    description: "A full-stack pet store platform selling pet food, medicine, and supplies for cats, dogs, puppies, kittens, and birds. Supports both guest and logged-in checkout, product ratings and reviews, and cash-on-delivery or advance payment options. Includes a role-based admin panel for managing orders, products, and inventory.",
+    github: "https://github.com/chaudharyrizwan1876/furr-and-feather",
+    liveLink: "https://www.furrandfeathers.com/",
+    tags: ["Next.js", "React", "Tailwind CSS", "Node.js", "Authentication", "Admin Dashboard"],
+  },
+  {
+    icon: (
+      <div className="w-12 h-12 rounded-2xl bg-gradient-to-br from-yellow-500 to-amber-600 flex items-center justify-center shrink-0 shadow-lg shadow-yellow-500/25">
+        <svg className="w-6 h-6 text-white" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+          <path d="M3 3v18h18"/><path d="M18.7 8 13 13.7l-4-4L3 16.3"/>
+        </svg>
+      </div>
+    ),
+    title: "Quant Trading Bot",
+    description: "A Python-based algorithmic trading engine for MetaTrader 5 that trades Gold and Forex pairs using Smart Money Concepts and ICT-based strategies, with dynamic risk management and a live monitoring dashboard. Built as a personal research project to explore algorithmic trading and rule-based decision systems outside my primary full-stack work.",
+    github: "https://github.com/chaudharyrizwan1876/quant-trading-bot",
+    tags: ["Python", "MetaTrader 5", "Algorithmic Trading", "Data Analysis"],
+  },
+  {
+    icon: (
+      <div className="w-12 h-12 rounded-2xl bg-gradient-to-br from-teal-500 to-cyan-600 flex items-center justify-center shrink-0 shadow-lg shadow-teal-500/25">
+        <svg className="w-6 h-6 text-white" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+          <circle cx="11" cy="11" r="7"/><path d="m21 21-4.35-4.35"/>
+        </svg>
+      </div>
+    ),
+    title: "Lead Finder Pro",
+    description: "A full-stack lead generation tool that finds local businesses worldwide and extracts contact details using OpenStreetMap and Google Maps. Runs a multi-strategy email extraction pipeline, flags businesses with no website, and generates WhatsApp-ready links, all exportable to CSV.",
+    github: "https://github.com/chaudharyrizwan1876/lead-finder-pro",
+    tags: ["Next.js", "React", "TypeScript", "Node.js", "Express", "Playwright"],
+  },
+  {
+    icon: (
+      <div className="w-12 h-12 rounded-2xl bg-gradient-to-br from-slate-500 to-gray-700 flex items-center justify-center shrink-0 shadow-lg shadow-slate-500/25">
+        <svg className="w-6 h-6 text-white" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+          <path d="M5 17h14M5 17a2 2 0 0 1-2-2v-2l2-5h14l2 5v2a2 2 0 0 1-2 2M5 17v2a1 1 0 0 0 1 1h1a1 1 0 0 0 1-1v-2m8 0v2a1 1 0 0 0 1 1h1a1 1 0 0 0 1-1v-2"/>
+        </svg>
+      </div>
+    ),
+    title: "Premium Rental Car",
+    description: "A premium car rental platform featuring luxury vehicles, wagons, family cars, and sports cars (including Lexus and similar models), rented on a 24-hour basis with online booking and payment. Includes an admin dashboard for managing drivers, tracking car availability, and viewing booking schedules by date.",
+    github: "https://github.com/chaudharyrizwan1876/premium-rental-car",
+    liveLink: "https://premium-rental-car.vercel.app",
+    tags: ["React", "Vite", "Node.js", "Admin Dashboard", "Payments"],
+  },
+  {
+    icon: (
+      <div className="w-12 h-12 rounded-2xl bg-gradient-to-br from-amber-500 to-orange-600 flex items-center justify-center shrink-0 shadow-lg shadow-amber-500/25">
+        <svg className="w-6 h-6 text-white" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+          <rect x="3" y="4" width="18" height="18" rx="2"/><path d="M16 2v4M8 2v4M3 10h18"/>
+          <path d="M8 14h.01M12 14h.01M16 14h.01M8 18h.01M12 18h.01"/>
+        </svg>
+      </div>
+    ),
+    title: "HR & Payroll Management System",
+    description: "An enterprise-style desktop HR and payroll system built in C#, WPF, and .NET 10, covering employee records, attendance, leave management, loan tracking, performance appraisals, and recruitment. Payroll module includes Pakistan FBR tax slab calculations with automatic salary slip generation. Includes ML.NET features for attrition prediction, payroll anomaly detection, and attendance pattern analysis. A personal project built to strengthen desktop application and applied ML skills alongside primary web development work.",
+    github: "https://github.com/chaudharyrizwan1876/HR-Payroll-Management-System",
+    liveLink: "https://github.com/chaudharyrizwan1876/HR-Payroll-Management-System/releases/latest",
+    liveLabel: "Download",
+    tags: ["C#", "WPF", ".NET 10", "XAML", "SQLite", "Entity Framework Core", "ML.NET", "Windows"],
   },
   {
     icon: (
@@ -178,7 +246,7 @@ const projects = [
       </div>
     ),
     title: "Cafe Management System",
-    description: "A complete hospital cafe management desktop application built in C# and WPF on .NET 10. Manages doctor accounts, daily food orders, payments, and wallet balances. Includes AI-powered predictions using ML.NET for sales forecasting, balance warnings, item trends, and peak hour analysis. Runs fully offline on any Windows machine — no server or internet required.",
+    description: "A complete hospital cafe management desktop application built in C# and WPF on .NET 10. Manages doctor accounts, daily food orders, payments, and wallet balances. Includes AI-powered predictions using ML.NET for sales forecasting, balance warnings, item trends, and peak hour analysis. Runs fully offline on any Windows machine — no server or internet required. Currently in active use at a hospital cafe handling real daily transactions.",
     github: "https://github.com/chaudharyrizwan1876/HospitalCafeLedger",
     liveLink: "https://github.com/chaudharyrizwan1876/HospitalCafeLedger/releases/latest/download/HospitalCafeLedger.App.exe",
     liveLabel: "Download .exe",
@@ -212,9 +280,6 @@ function SkillRow({ name, level, color }) {
               />
             ))}
           </div>
-          <span className="text-[10px] font-bold w-7 text-right" style={{ color }}>
-            {level}%
-          </span>
         </div>
       </div>
       {desc && (
@@ -311,14 +376,14 @@ export default function Home() {
               Muhammad <span className="text-cyan-400">Rizwan</span>
             </motion.h1>
             <motion.h2 variants={fadeUp} className="text-lg sm:text-xl md:text-2xl text-gray-300 font-semibold mb-6 sm:mb-8">
-              Full Stack Developer & AI Enthusiast
+              Full Stack Developer (MERN | C#/.NET)
             </motion.h2>
             <motion.p variants={fadeUp} className="text-gray-400 leading-7 sm:leading-8 text-sm sm:text-base mb-8 sm:mb-10">
-              I specialize in building scalable, high-performance web applications
-              with clean, maintainable code and exceptional user experiences. With
-              expertise in both frontend and backend technologies, I transform
-              complex business requirements into elegant digital solutions that
-              drive measurable impact.
+              I build full-stack web applications using the MERN stack and Next.js,
+              and desktop applications in C# and WPF. Over the past 2+ years, I have
+              delivered production platforms across e-commerce, education, and
+              AI-powered support tools, handling everything from database design
+              and API development to deployment and maintenance.
             </motion.p>
             <motion.div variants={fadeUp} className="flex flex-wrap gap-3 sm:gap-4">
               <a href="#projects" className="px-5 sm:px-7 py-2.5 sm:py-3 bg-blue-600 hover:bg-blue-500 rounded-lg font-semibold text-sm sm:text-base transition">
